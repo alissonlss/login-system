@@ -1,0 +1,94 @@
+html{
+    /* 1rem será equivalente a 10px */
+    font-size: 62.5%; 
+}
+
+body{
+    background-color: #A1CADB;
+    color: #fff;
+    margin: 0;
+}
+
+.tela-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: radial-gradient(circle, #536976 0%, #292E49 100%);
+    padding: 5%;
+    margin: 2%;
+    border-radius: 10%;
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+.login h1{
+    text-align: center;
+}
+
+.login input{
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.botao-acessar{
+    color: #292E49;
+    background-color: #3CEB1F;
+    border: none;
+    border-radius: 10px;
+    padding: 0.8rem 1.5rem;
+    align-self: center;
+    font-size: 1.5rem;
+}
+
+.botao-acessar:hover{
+    opacity: 0.7;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #292E49;
+    background-color: rgb(221, 182, 73);
+    padding: 0.5rem;
+}
+.contato img{
+    width: 2rem;
+}
+
+@media screen and (min-width:769px) {
+    .login{
+        width: 35%;
+        font-size: 2.5rem;
+    }
+
+    .login input{
+        font-size: 2.0rem;
+    }
+    .botao-acessar{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:250px) {
+    .login{
+        width: 85%;
+        font-size: 2rem;
+    }
+
+    .login input{
+        font-size: 1.2rem;
+    }
+    .botao-acessar{
+        font-size: 1.2rem;
+    }
+}
