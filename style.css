@@ -1,12 +1,17 @@
 html{
     /* 1rem será equivalente a 10px */
     font-size: 62.5%; 
+    display: flex;
+    height: 100%;
 }
 
 body{
+    display: flex;
+    flex-direction: column;
     background-color: #A1CADB;
     color: #fff;
     margin: 0;
+    width: 100%;
 }
 
 .tela-login{
@@ -14,6 +19,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
     margin: 0px;
+    flex: 1 0 auto;
 }
 
 .login{
